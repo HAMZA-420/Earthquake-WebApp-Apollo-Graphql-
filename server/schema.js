@@ -20,7 +20,7 @@ type User {
     username: String!
     email: String!
     password: String!
-    records: [Quake]!
+    records: [Quake]
 }
 
 type Mutation {
